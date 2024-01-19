@@ -10,7 +10,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(myMap);
 
 // Use this link to get the GeoJSON data.
-let link = "https://pkgstore.datahub.io/core/geo-countries/countries/archive/23f420f929e0e09c39d916b8aaa166fb/countries.geojson";
+// let link = "https://pkgstore.datahub.io/core/geo-countries/countries/archive/23f420f929e0e09c39d916b8aaa166fb/countries.geojson";
+let link = "https://github.com/Vimeow/Public_Resources/blob/main/Countries_geojson/countries.geojson";
 
 // Getting our GeoJSON data
 d3.json(link).then(function(data) {
