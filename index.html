@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
 
 
-    <!--Import Libraries Plotly and D3-->
+    <!--Import Libraries Plotly and D3 & bootstrap for styling-->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--Give the html page a title-->
     <title style="text-align: center">Project 3 - Group 4</title>
 </head>
@@ -18,28 +19,38 @@
     
 
     
+    <div class="container-fluid"> 
+        <!--Add page title, description, authors-->
+        <h1 class="title">Project 3 - Group 4</h1>
+        <p>This is the project description</p>
+        <p>Authors: A,B,V</p>
+        <a href="https://www.google.com" target="_blank">Data Source</a>
+
+        </br></br>
+        
+        <div class="col">
+            <label for="Country">Choose a Country: </label>
+            <select name="Country">
+                <option>Country 1</option>
+                <option>Country 2</option>
+            </select>
+        </div>
+        
+        <div class="col">
+            <div id="pieChart"></div>
+        </div>
+        
     
-    <!--Add page title, description, authors-->
-    <h1 class="title">Project 3 - Group 4</h1>
-    <p>This is the project description</p>
-    <p>Authors: A,B,V</p>
-    <a href="https://www.google.com" target="_blank">Data Source</a>
-
-    </br></br>
-    
-    <label for="Country">Choose a Country: </label>
-    <select name="Country">
-        <option>Country 1</option>
-        <option>Country 2</option>
-    </select>
 
 
-    </br></br>
-    <div id="pieChart"></div>
-
-   
-   
-    <!--Run script from project file-->
-    <script src="app.js"></script>
+ 
+        <!--Footer text for html page-->
+        <footer class="container-fluid">
+            <p id="footerText">Footer Text Example</p>
+        </footer>
+        
+        <!--Run script from project file-->
+        <script src="app.js"></script>
+    </div>
 </body>
 </html>

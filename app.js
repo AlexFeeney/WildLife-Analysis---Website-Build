@@ -8,11 +8,7 @@ let placeHolder = [];
 //});
 
 
-//create slicers
-
-
-
-
+//create slicing funtion to buttons interact with charts
 
 
 
@@ -32,17 +28,13 @@ var data1 = [{
     values: [19, 26, 55],
     labels: ['Animal One', 'Animal Two', 'Animal Three'],
     type: 'pie'
-  }];
+}];
   
-  var layout = {
+var layout = {
     height: 400,
     width: 500
-  };
-  Plotly.newPlot('pieChart', data1, layout);
-
-
-
-
+};
+Plotly.newPlot('pieChart', data1, layout);
 
 
 //chart 3 table
