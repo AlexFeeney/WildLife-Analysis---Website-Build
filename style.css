@@ -12,7 +12,14 @@ h1{
 }
 #map {
    
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%; 
+}
+#headerTable{
+    background-color: rgb(98, 105, 100);
+}
+
+.headerUrl{
+    color: black;
 }
   
