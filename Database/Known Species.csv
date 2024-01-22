@@ -1,0 +1,408 @@
+Country,Species,Value
+Australia,Mammals,377
+Australia,Birds,798
+Australia,Reptiles,"1,085.00"
+Australia,Amphibians,239
+Australia,Fish,"5,342.00"
+Australia,Marine Fish,"5,058.00"
+Australia,Freshwater Fish,315
+Australia,Vascular plants,"22,949.00"
+Australia,Mosses,"2,020.00"
+Australia,Lichens,"3,880.00"
+Australia,Invertebrates,"114,940.00"
+Austria,Mammals,104
+Austria,Birds,229
+Austria,Reptiles,14
+Austria,Amphibians,21
+Austria,Fish,99
+Austria,Marine Fish,
+Austria,Freshwater Fish,99
+Austria,Vascular plants,"3,054.00"
+Austria,Mosses,"1,016.00"
+Austria,Lichens,"2,100.00"
+Austria,Invertebrates,"53,464.00"
+Belgium,Mammals,84
+Belgium,Birds,198
+Belgium,Reptiles,10
+Belgium,Amphibians,19
+Belgium,Fish,142
+Belgium,Marine Fish,99
+Belgium,Freshwater Fish,43
+Belgium,Vascular plants,"1,818.00"
+Belgium,Mosses,521
+Belgium,Lichens,838
+Belgium,Invertebrates,"5,238.00"
+Canada,Mammals,222
+Canada,Birds,691
+Canada,Reptiles,45
+Canada,Amphibians,46
+Canada,Fish,"1,392.00"
+Canada,Marine Fish,"1,229.00"
+Canada,Freshwater Fish,163
+Canada,Vascular plants,"5,304.00"
+Canada,Mosses,"1,405.00"
+Canada,Lichens,"2,677.00"
+Canada,Invertebrates,"31,471.00"
+Chile,Mammals,185
+Chile,Birds,510
+Chile,Reptiles,140
+Chile,Amphibians,65
+Chile,Fish,"1,272.00"
+Chile,Marine Fish,"1,182.00"
+Chile,Freshwater Fish,72
+Chile,Vascular plants,"6,103.00"
+Chile,Mosses,923
+Chile,Lichens,"1,383.00"
+Chile,Invertebrates,"12,220.00"
+Colombia,Mammals,543
+Colombia,Birds,"1,954.00"
+Colombia,Reptiles,638
+Colombia,Amphibians,871
+Colombia,Fish,"4,216.00"
+Colombia,Marine Fish,"2,600.00"
+Colombia,Freshwater Fish,"1,603.00"
+Colombia,Vascular plants,"38,140.00"
+Colombia,Mosses,"1,640.00"
+Colombia,Lichens,"1,761.00"
+Colombia,Invertebrates,"22,745.00"
+Costa Rica,Mammals,241
+Costa Rica,Birds,890
+Costa Rica,Reptiles,196
+Costa Rica,Amphibians,191
+Costa Rica,Fish,"2,012.00"
+Costa Rica,Marine Fish,
+Costa Rica,Freshwater Fish,
+Costa Rica,Vascular plants,"1,943.00"
+Costa Rica,Mosses,4
+Costa Rica,Lichens,
+Costa Rica,Invertebrates,447
+Czechia,Mammals,92
+Czechia,Birds,221
+Czechia,Reptiles,13
+Czechia,Amphibians,21
+Czechia,Fish,80
+Czechia,Marine Fish,
+Czechia,Freshwater Fish,80
+Czechia,Vascular plants,"2,256.00"
+Czechia,Mosses,886
+Czechia,Lichens,"1,526.00"
+Czechia,Invertebrates,"32,000.00"
+Denmark,Mammals,71
+Denmark,Birds,241
+Denmark,Reptiles,8
+Denmark,Amphibians,15
+Denmark,Fish,238
+Denmark,Marine Fish,
+Denmark,Freshwater Fish,55
+Denmark,Vascular plants,"2,918.00"
+Denmark,Mosses,452
+Denmark,Lichens,"1,002.00"
+Denmark,Invertebrates,"4,270.00"
+Estonia,Mammals,66
+Estonia,Birds,234
+Estonia,Reptiles,5
+Estonia,Amphibians,11
+Estonia,Fish,103
+Estonia,Marine Fish,66
+Estonia,Freshwater Fish,54
+Estonia,Vascular plants,"2,013.00"
+Estonia,Mosses,598
+Estonia,Lichens,556
+Estonia,Invertebrates,"10,371.00"
+Finland,Mammals,71
+Finland,Birds,253
+Finland,Reptiles,6
+Finland,Amphibians,10
+Finland,Fish,88
+Finland,Marine Fish,25
+Finland,Freshwater Fish,63
+Finland,Vascular plants,"2,628.00"
+Finland,Mosses,929
+Finland,Lichens,"1,898.00"
+Finland,Invertebrates,"14,647.00"
+France,Mammals,125
+France,Birds,396
+France,Reptiles,38
+France,Amphibians,35
+France,Fish,163
+France,Marine Fish,83
+France,Freshwater Fish,80
+France,Vascular plants,"4,982.00"
+France,Mosses,
+France,Lichens,
+France,Invertebrates,"1,060.00"
+Germany,Mammals,107
+Germany,Birds,280
+Germany,Reptiles,13
+Germany,Amphibians,21
+Germany,Fish,197
+Germany,Marine Fish,94
+Germany,Freshwater Fish,103
+Germany,Vascular plants,"4,305.00"
+Germany,Mosses,"1,195.00"
+Germany,Lichens,"2,380.00"
+Germany,Invertebrates,"10,434.00"
+Greece,Mammals,115
+Greece,Birds,440
+Greece,Reptiles,66
+Greece,Amphibians,23
+Greece,Fish,665
+Greece,Marine Fish,511
+Greece,Freshwater Fish,154
+Greece,Vascular plants,"5,850.00"
+Greece,Mosses,
+Greece,Lichens,
+Greece,Invertebrates,
+Hungary,Mammals,87
+Hungary,Birds,238
+Hungary,Reptiles,15
+Hungary,Amphibians,18
+Hungary,Fish,81
+Hungary,Marine Fish,
+Hungary,Freshwater Fish,81
+Hungary,Vascular plants,"2,721.00"
+Hungary,Mosses,659
+Hungary,Lichens,715
+Hungary,Invertebrates,87
+Iceland,Mammals,4
+Iceland,Birds,75
+Iceland,Reptiles,
+Iceland,Amphibians,
+Iceland,Fish,5
+Iceland,Marine Fish,
+Iceland,Freshwater Fish,5
+Iceland,Vascular plants,438
+Iceland,Mosses,
+Iceland,Lichens,
+Iceland,Invertebrates,
+Ireland,Mammals,57
+Ireland,Birds,489
+Ireland,Reptiles,3
+Ireland,Amphibians,3
+Ireland,Fish,404
+Ireland,Marine Fish,376
+Ireland,Freshwater Fish,28
+Ireland,Vascular plants,"1,050.00"
+Ireland,Mosses,596
+Ireland,Lichens,
+Ireland,Invertebrates,"1,230.00"
+Italy,Mammals,126
+Italy,Birds,278
+Italy,Reptiles,56
+Italy,Amphibians,44
+Italy,Fish,641
+Italy,Marine Fish,544
+Italy,Freshwater Fish,97
+Italy,Vascular plants,"8,249.00"
+Italy,Mosses,"1,209.00"
+Italy,Lichens,"2,704.00"
+Italy,Invertebrates,"58,632.00"
+Japan,Mammals,160
+Japan,Birds,700
+Japan,Reptiles,100
+Japan,Amphibians,91
+Japan,Fish,"4,300.00"
+Japan,Marine Fish,"3,900.00"
+Japan,Freshwater Fish,400
+Japan,Vascular plants,"7,000.00"
+Japan,Mosses,"1,800.00"
+Japan,Lichens,"1,600.00"
+Japan,Invertebrates,"5,300.00"
+Korea,Mammals,125
+Korea,Birds,548
+Korea,Reptiles,32
+Korea,Amphibians,27
+Korea,Fish,"1,326.00"
+Korea,Marine Fish,"1,102.00"
+Korea,Freshwater Fish,224
+Korea,Vascular plants,"4,606.00"
+Korea,Mosses,"1,051.00"
+Korea,Lichens,"1,133.00"
+Korea,Invertebrates,"30,054.00"
+Latvia,Mammals,62
+Latvia,Birds,233
+Latvia,Reptiles,7
+Latvia,Amphibians,13
+Latvia,Fish,87
+Latvia,Marine Fish,42
+Latvia,Freshwater Fish,45
+Latvia,Vascular plants,"1,937.00"
+Latvia,Mosses,560
+Latvia,Lichens,687
+Latvia,Invertebrates,"17,100.00"
+Lithuania,Mammals,68
+Lithuania,Birds,389
+Lithuania,Reptiles,7
+Lithuania,Amphibians,13
+Lithuania,Fish,105
+Lithuania,Marine Fish,51
+Lithuania,Freshwater Fish,54
+Lithuania,Vascular plants,"1,334.00"
+Lithuania,Mosses,470
+Lithuania,Lichens,250
+Lithuania,Invertebrates,"25,000.00"
+Luxembourg,Mammals,
+Luxembourg,Birds,131
+Luxembourg,Reptiles,6
+Luxembourg,Amphibians,14
+Luxembourg,Fish,43
+Luxembourg,Marine Fish,
+Luxembourg,Freshwater Fish,43
+Luxembourg,Vascular plants,"1,323.00"
+Luxembourg,Mosses,
+Luxembourg,Lichens,
+Luxembourg,Invertebrates,149
+Mexico,Mammals,564
+Mexico,Birds,"1,117.00"
+Mexico,Reptiles,953
+Mexico,Amphibians,413
+Mexico,Fish,"2,763.00"
+Mexico,Marine Fish,"2,224.00"
+Mexico,Freshwater Fish,505
+Mexico,Vascular plants,"23,296.00"
+Mexico,Mosses,"1,000.00"
+Mexico,Lichens,
+Mexico,Invertebrates,
+Netherlands,Mammals,53
+Netherlands,Birds,168
+Netherlands,Reptiles,7
+Netherlands,Amphibians,16
+Netherlands,Fish,97
+Netherlands,Marine Fish,57
+Netherlands,Freshwater Fish,40
+Netherlands,Vascular plants,"1,395.00"
+Netherlands,Mosses,517
+Netherlands,Lichens,683
+Netherlands,Invertebrates,507
+New Zealand,Mammals,50
+New Zealand,Birds,262
+New Zealand,Reptiles,125
+New Zealand,Amphibians,8
+New Zealand,Fish,"1,262.00"
+New Zealand,Marine Fish,"1,187.00"
+New Zealand,Freshwater Fish,75
+New Zealand,Vascular plants,"4,469.00"
+New Zealand,Mosses,"1,362.00"
+New Zealand,Lichens,"2,026.00"
+New Zealand,Invertebrates,"5,747.00"
+Norway,Mammals,71
+Norway,Birds,234
+Norway,Reptiles,5
+Norway,Amphibians,6
+Norway,Fish,205
+Norway,Marine Fish,173
+Norway,Freshwater Fish,32
+Norway,Vascular plants,"1,376.00"
+Norway,Mosses,"1,099.00"
+Norway,Lichens,"1,402.00"
+Norway,Invertebrates,"15,266.00"
+Poland,Mammals,112
+Poland,Birds,456
+Poland,Reptiles,12
+Poland,Amphibians,19
+Poland,Fish,126
+Poland,Marine Fish,36
+Poland,Freshwater Fish,77
+Poland,Vascular plants,"3,141.00"
+Poland,Mosses,705
+Poland,Lichens,"1,650.00"
+Poland,Invertebrates,"33,872.00"
+Portugal,Mammals,158
+Portugal,Birds,393
+Portugal,Reptiles,49
+Portugal,Amphibians,20
+Portugal,Fish,65
+Portugal,Marine Fish,
+Portugal,Freshwater Fish,
+Portugal,Vascular plants,"3,607.00"
+Portugal,Mosses,
+Portugal,Lichens,
+Portugal,Invertebrates,
+Slovak Republic,Mammals,90
+Slovak Republic,Birds,211
+Slovak Republic,Reptiles,12
+Slovak Republic,Amphibians,18
+Slovak Republic,Fish,79
+Slovak Republic,Marine Fish,
+Slovak Republic,Freshwater Fish,79
+Slovak Republic,Vascular plants,"3,619.00"
+Slovak Republic,Mosses,699
+Slovak Republic,Lichens,"1,508.00"
+Slovak Republic,Invertebrates,"24,818.00"
+Slovenia,Mammals,89
+Slovenia,Birds,380
+Slovenia,Reptiles,24
+Slovenia,Amphibians,21
+Slovenia,Fish,273
+Slovenia,Marine Fish,188
+Slovenia,Freshwater Fish,85
+Slovenia,Vascular plants,"3,452.00"
+Slovenia,Mosses,
+Slovenia,Lichens,
+Slovenia,Invertebrates,
+Spain,Mammals,172
+Spain,Birds,640
+Spain,Reptiles,105
+Spain,Amphibians,39
+Spain,Fish,"1,147.00"
+Spain,Marine Fish,"1,062.00"
+Spain,Freshwater Fish,85
+Spain,Vascular plants,"7,586.00"
+Spain,Mosses,885
+Spain,Lichens,466
+Spain,Invertebrates,"42,969.00"
+Sweden,Mammals,65
+Sweden,Birds,253
+Sweden,Reptiles,6
+Sweden,Amphibians,13
+Sweden,Fish,132
+Sweden,Marine Fish,97
+Sweden,Freshwater Fish,42
+Sweden,Vascular plants,"1,603.00"
+Sweden,Mosses,"1,040.00"
+Sweden,Lichens,"2,637.00"
+Sweden,Invertebrates,"38,487.00"
+Switzerland,Mammals,97
+Switzerland,Birds,205
+Switzerland,Reptiles,19
+Switzerland,Amphibians,19
+Switzerland,Fish,90
+Switzerland,Marine Fish,
+Switzerland,Freshwater Fish,90
+Switzerland,Vascular plants,"2,866.00"
+Switzerland,Mosses,"1,153.00"
+Switzerland,Lichens,786
+Switzerland,Invertebrates,"3,118.00"
+Türkiye,Mammals,175
+Türkiye,Birds,500
+Türkiye,Reptiles,146
+Türkiye,Amphibians,39
+Türkiye,Fish,896
+Türkiye,Marine Fish,512
+Türkiye,Freshwater Fish,384
+Türkiye,Vascular plants,"12,141.00"
+Türkiye,Mosses,
+Türkiye,Lichens,"1,000.00"
+Türkiye,Invertebrates,"20,636.00"
+United Kingdom,Mammals,107
+United Kingdom,Birds,590
+United Kingdom,Reptiles,15
+United Kingdom,Amphibians,15
+United Kingdom,Fish,622
+United Kingdom,Marine Fish,
+United Kingdom,Freshwater Fish,
+United Kingdom,Vascular plants,"4,562.00"
+United Kingdom,Mosses,805
+United Kingdom,Lichens,"2,875.00"
+United Kingdom,Invertebrates,"36,242.00"
+Brazil,Mammals,
+Brazil,Birds,
+Brazil,Reptiles,
+Brazil,Amphibians,877
+Brazil,Fish,
+Brazil,Marine Fish,
+Brazil,Freshwater Fish,
+Brazil,Vascular plants,
+Brazil,Mosses,
+Brazil,Lichens,
+Brazil,Invertebrates,
