@@ -8,49 +8,50 @@
     <link rel="stylesheet" href="style.css">
 
 
-    <!--Import Libraries Plotly and D3 & bootstrap for styling-->
+    <!--Import Libraries Plotly and D3-->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <!--Styling libraries-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="" />
+
     <!--Give the html page a title-->
     <title style="text-align: center">Project 3 - Group 4</title>
 </head>
 <body>
-    
+    <!--Add page title, description, authors-->
+    <h1 class="title">Project 3 - Group 4</h1>
+    <p>This is the project description</p>
+    <p>Authors: A,B,V</p>
+    <a href="https://www.google.com" target="_blank">Data Source</a>
 
-    
-    <div class="container-fluid"> 
-        <!--Add page title, description, authors-->
-        <h1 class="title">Project 3 - Group 4</h1>
-        <p>This is the project description</p>
-        <p>Authors: A,B,V</p>
-        <a href="https://www.google.com" target="_blank">Data Source</a>
-
-        </br></br>
+    </br></br>
         
-        <div class="col">
-            <label for="Country">Choose a Country: </label>
-            <select name="Country">
-                <option>Country 1</option>
-                <option>Country 2</option>
-            </select>
-        </div>
+       
+    <label for="Country">Choose a Country: </label>
+        <select name="Country">
+            <option>Country 1</option>
+            <option>Country 2</option>
+        </select>
+         
+    <div id="pieChart"></div>
         
-        <div class="col">
-            <div id="pieChart"></div>
-        </div>
-        
+    <div id="map"></div>
     
 
 
  
-        <!--Footer text for html page-->
-        <footer class="container-fluid">
-            <p id="footerText">Footer Text Example</p>
-        </footer>
+    <!--Footer text for html page-->
+    <footer>
+        <p id="footerText">Footer Text Example</p>
+    </footer>
         
-        <!--Run script from project file-->
-        <script src="app.js"></script>
-    </div>
+    <!--Run script from project file-->
+    <script src="app.js"></script>   
 </body>
 </html>
