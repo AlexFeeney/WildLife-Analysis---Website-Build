@@ -14,7 +14,10 @@ from flask import (
     request,
     redirect)
 
-engine = create_engine("sqlite:///data/movies.db")
+
+
+#todo this needs updateing
+engine = create_engine("sqlite:///Database/Conservation.db")
 
 # reflect an existing database into a new model
 Base = automap_base()
@@ -24,8 +27,13 @@ Base.prepare(engine, reflect=True)
 # Save reference to the table
 print(Base.classes.keys())
 
-Movies = Base.classes.movies
-Actors = Base.classes.actors
+
+kp = Base.classes.KnownSpecies
+cep = Base.classes.CriticallyEndangeredSpecies
+es = Base.classes.EndangeredSpecies
+tp = Base.classes.ThreatenedSpecies
+vp = Base.classes.VulnerableSpecies
+c = Base.classes.Countries
 
 #################################################
 # Flask Setup
@@ -41,14 +49,12 @@ def data():
     return render_template("index.html")
 
 
-# Datatable
-@app.route("/api/movies")
-def movie_grid():
+#--------------------Known Species Table------------------------
+@app.route("/api/knownSpecies")
+def known_species():
 
     session = Session(engine)
-
-    results = session.query(Movies.title, Movies.director, Movies.year, Movies.rating, Movies.imdb_votes, Movies.imdb_score).all()
-
+    results = session.query(kp.Country, kp.Species,kp.Value).all()
     results = [list(r) for r in results]
 
     table_results = {
@@ -56,71 +62,81 @@ def movie_grid():
     }
 
     session.close()
-
     return jsonify(table_results)
 
-# -------------------------------------------------------------------------------
-# Charts
-@app.route("/api/years/<year>")
-def years(year):
+
+@app.route("/api/criticallyEndangeredSpecies")
+def criticallyEndangeredSpecies():
 
     session = Session(engine)
-
-    if year == "before":
-        results = session.query(Movies.title, Movies.director, Movies.year, 
-            Movies.rating, Movies.imdb_votes, Movies.imdb_score).filter(Movies.year < 2000).all()
-    else:
-        results = session.query(Movies.title, Movies.director, Movies.year, 
-            Movies.rating, Movies.imdb_votes, Movies.imdb_score).filter(Movies.year >= 2000).all()
-
+    results = session.query(cep.Country, cep.Species, cep.Value).all()
     results = [list(r) for r in results]
 
-    rating = [result[3] for result in results]
-    votes = [result[4] for result in results]
-
-    year_results = {
-        "rating": rating,
-        "votes": votes,
+    table_results = {
+        "table": results
     }
 
     session.close()
+    return jsonify(table_results)
 
-    return jsonify(year_results)
-
-
-@app.route("/api/directors/<director>")
-def directors(director):
-
-    print(director)
-
-    if director == "chaplin":
-        name = "Charles Chaplin"
-    elif director == "hitchcock":
-        name = "Alfred Hitchcock"
-    elif director == "nolan":
-        name = "Christopher Nolan"
-    else:
-        name = "Akira Kurosawa"
+@app.route("/api/endangeredSpecies")
+def endangeredSpecies():
 
     session = Session(engine)
+    results = session.query(es.Country, es.Species, es.Value).all()
+    results = [list(r) for r in results]
 
-    G_results = session.query(func.avg(Movies.imdb_score)).filter(Movies.rating=="G").filter(Movies.director == name).all()
-    PG_results = session.query(func.avg(Movies.imdb_score)).filter(Movies.rating=="PG").filter(Movies.director == name).all()
-    PG_plus_results = session.query(func.avg(Movies.imdb_score)).filter(or_(Movies.rating=="PG+", Movies.rating=="PG-13")).filter(Movies.director == name).all()
-    R_results = session.query(func.avg(Movies.imdb_score)).filter(Movies.rating=="R").filter(Movies.director == name).all()
-    Other_results = session.query(func.avg(Movies.imdb_score)).filter(or_(Movies.rating=="APPROVED",Movies.rating=="NOT RATED", Movies.rating=="N\A", Movies.rating=="PASSED")).filter(Movies.director == name).all()
-
-    results = [G_results[0][0], PG_results[0][0], PG_plus_results[0][0], R_results[0][0], Other_results[0][0]]
-    labels = ["G", "PG", "PG+", "R", "Other"]
-
-    director_results = {
-        "labels": labels,
-        "scores": results,
+    table_results = {
+        "table": results
     }
 
     session.close()
+    return jsonify(table_results)
 
-    return jsonify(director_results)
+@app.route("/api/threatenedSpecies")
+def threatenedSpecies():
+
+    session = Session(engine)
+    results = session.query(tp.Country, tp.Species, tp.Value).all()
+    results = [list(r) for r in results]
+
+    table_results = {
+        "table": results
+    }
+
+    session.close()
+    return jsonify(table_results)
+
+
+@app.route("/api/vulenerableSpecies")
+def vulenerableSpecies():
+
+    session = Session(engine)
+    results = session.query(vp.Country, vp.Species, vp.Value).all()
+    results = [list(r) for r in results]
+
+    table_results = {
+        "table": results
+    }
+
+    session.close()
+    return jsonify(table_results)
+
+@app.route("/api/countries")
+def countries():
+
+    session = Session(engine)
+    results = session.query(c.Country).all()
+    results = [list(r) for r in results]
+
+    table_results = {
+        "table": results
+    }
+
+    session.close()
+    return jsonify(table_results)
+
+
 
 if __name__ == "__main__":
     app.run()

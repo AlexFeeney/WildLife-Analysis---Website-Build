@@ -1,15 +1,30 @@
-//d3 code to retrieve data from api's
-//placeholder variable
-let placeHolder = []; 
-
-//place holder function to retreive data from api and log output. 
-//d3.json(placeHolder).then(function(data){
-//    console.log(data); 
-//});
 
 
-//create slicing funtion to buttons interact with charts
+d3.json("/api/knownSpecies").then((data) => {
 
+    console.log(data)
+});
+
+d3.json("/api/criticallyEndangeredSpecies").then((data) => {
+
+    console.log(data)
+});
+d3.json("/api/endangeredSpecies").then((data) => {
+
+    console.log(data)
+});
+d3.json("/api/threatenedSpecies").then((data) => {
+
+    console.log(data)
+});
+d3.json("/api/vulenerableSpecies").then((data) => {
+
+    console.log(data)
+});
+d3.json("/api/countries").then((data) => {
+
+    console.log(data)
+});
 
 
 
