@@ -41,7 +41,9 @@ var data1 = [{
   
 var layout = {
     height: 400,
-    width: 500
+    width: 500, 
+    showLegend: false, 
+    autosize: true
 };
 Plotly.newPlot('pieChart', data1, layout);
 
