@@ -6,7 +6,7 @@ Australia,Amphibians,39
 Australia,Fish,53
 Australia,Marine Fish,15
 Australia,Freshwater Fish,38
-Australia,Vascular plants,"1,350.00"
+Australia,Vascular plants,1350
 Australia,Mosses,1
 Australia,Lichens,
 Australia,Invertebrates,71
@@ -17,7 +17,7 @@ Austria,Amphibians,12
 Austria,Fish,39
 Austria,Marine Fish,
 Austria,Freshwater Fish,39
-Austria,Vascular plants,"1,092.00"
+Austria,Vascular plants,1092
 Austria,Mosses,238
 Austria,Lichens,443
 Austria,Invertebrates,968
@@ -42,7 +42,7 @@ Canada,Freshwater Fish,36
 Canada,Vascular plants,965
 Canada,Mosses,405
 Canada,Lichens,328
-Canada,Invertebrates,"2,317.00"
+Canada,Invertebrates,2317
 Chile,Mammals,36
 Chile,Birds,46
 Chile,Reptiles,52
@@ -86,7 +86,7 @@ Czechia,Freshwater Fish,25
 Czechia,Vascular plants,908
 Czechia,Mosses,224
 Czechia,Lichens,569
-Czechia,Invertebrates,"3,313.00"
+Czechia,Invertebrates,3313
 Denmark,Mammals,9
 Denmark,Birds,84
 Denmark,Reptiles,1
@@ -119,7 +119,7 @@ Finland,Freshwater Fish,10
 Finland,Vascular plants,212
 Finland,Mosses,312
 Finland,Lichens,477
-Finland,Invertebrates,"1,298.00"
+Finland,Invertebrates,1298
 France,Mammals,17
 France,Birds,107
 France,Reptiles,9
@@ -138,10 +138,10 @@ Germany,Amphibians,10
 Germany,Fish,49
 Germany,Marine Fish,21
 Germany,Freshwater Fish,28
-Germany,Vascular plants,"1,410.00"
+Germany,Vascular plants,1410
 Germany,Mosses,409
-Germany,Lichens,"1,052.00"
-Germany,Invertebrates,"3,752.00"
+Germany,Lichens,1052
+Germany,Invertebrates,3752
 Greece,Mammals,29
 Greece,Birds,62
 Greece,Reptiles,9
@@ -204,7 +204,7 @@ Japan,Amphibians,47
 Japan,Fish,185
 Japan,Marine Fish,16
 Japan,Freshwater Fish,169
-Japan,Vascular plants,"1,790.00"
+Japan,Vascular plants,1790
 Japan,Mosses,240
 Japan,Lichens,63
 Japan,Invertebrates,65
@@ -295,7 +295,7 @@ Norway,Freshwater Fish,1
 Norway,Vascular plants,297
 Norway,Mosses,243
 Norway,Lichens,269
-Norway,Invertebrates,"1,356.00"
+Norway,Invertebrates,1356
 Poland,Mammals,13
 Poland,Birds,34
 Poland,Reptiles,3
@@ -306,7 +306,7 @@ Poland,Freshwater Fish,17
 Poland,Vascular plants,480
 Poland,Mosses,83
 Poland,Lichens,545
-Poland,Invertebrates,"1,081.00"
+Poland,Invertebrates,1081
 Portugal,Mammals,31
 Portugal,Birds,111
 Portugal,Reptiles,10
@@ -328,7 +328,7 @@ Slovak Republic,Freshwater Fish,12
 Slovak Republic,Vascular plants,527
 Slovak Republic,Mosses,312
 Slovak Republic,Lichens,357
-Slovak Republic,Invertebrates,"1,621.00"
+Slovak Republic,Invertebrates,1621
 Slovenia,Mammals,34
 Slovenia,Birds,105
 Slovenia,Reptiles,18
@@ -347,7 +347,7 @@ Spain,Amphibians,9
 Spain,Fish,42
 Spain,Marine Fish,6
 Spain,Freshwater Fish,36
-Spain,Vascular plants,"1,041.00"
+Spain,Vascular plants,1041
 Spain,Mosses,45
 Spain,Lichens,
 Spain,Invertebrates,238
@@ -361,7 +361,7 @@ Sweden,Freshwater Fish,3
 Sweden,Vascular plants,268
 Sweden,Mosses,154
 Sweden,Lichens,
-Sweden,Invertebrates,"1,079.00"
+Sweden,Invertebrates,1079
 Switzerland,Mammals,33
 Switzerland,Birds,76
 Switzerland,Reptiles,13
@@ -372,7 +372,7 @@ Switzerland,Freshwater Fish,34
 Switzerland,Vascular plants,780
 Switzerland,Mosses,387
 Switzerland,Lichens,257
-Switzerland,Invertebrates,"1,075.00"
+Switzerland,Invertebrates,1075
 Türkiye,Mammals,23
 Türkiye,Birds,55
 Türkiye,Reptiles,22

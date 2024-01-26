@@ -1,4 +1,4 @@
-Country,Attribute,Value
+Country,Species,Value
 Australia,Mammals,57
 Australia,Birds,63
 Australia,Reptiles,31
@@ -42,7 +42,7 @@ Canada,Freshwater Fish,13
 Canada,Vascular plants,418
 Canada,Mosses,184
 Canada,Lichens,104
-Canada,Invertebrates,"1,553.00"
+Canada,Invertebrates,1553
 Chile,Mammals,20
 Chile,Birds,19
 Chile,Reptiles,25
@@ -86,7 +86,7 @@ Czechia,Freshwater Fish,8
 Czechia,Vascular plants,212
 Czechia,Mosses,76
 Czechia,Lichens,247
-Czechia,Invertebrates,"1,261.00"
+Czechia,Invertebrates,1261
 Denmark,Mammals,6
 Denmark,Birds,45
 Denmark,Reptiles,1
@@ -141,7 +141,7 @@ Germany,Freshwater Fish,11
 Germany,Vascular plants,820
 Germany,Mosses,250
 Germany,Lichens,546
-Germany,Invertebrates,"2,183.00"
+Germany,Invertebrates,2183
 Greece,Mammals,13
 Greece,Birds,31
 Greece,Reptiles,6
@@ -328,7 +328,7 @@ Slovak Republic,Freshwater Fish,6
 Slovak Republic,Vascular plants,201
 Slovak Republic,Mosses,190
 Slovak Republic,Lichens,169
-Slovak Republic,Invertebrates,"1,036.00"
+Slovak Republic,Invertebrates,1036
 Slovenia,Mammals,15
 Slovenia,Birds,45
 Slovenia,Reptiles,11
