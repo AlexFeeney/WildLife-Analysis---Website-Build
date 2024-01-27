@@ -1,11 +1,11 @@
-// Create layer for Leaflet map //----------
+// Create layer for Leaflet map //-----------------------------------------
 countryGeoJson = new L.layerGroup();
 
 
-// Load two JSON files concurrently using Promise.all //----------
+// Load two JSON files concurrently using Promise.all //-----------------------------------------
 Promise.all([
     d3.json("https://raw.githubusercontent.com/AlexFeeney/Project3_Group4/main/data/filtered_countries.geojson.json"),
-    d3.json("/api/knownSpecies")
+    d3.json("/api/vulenerableSpecies")
 ]).then(function([data1, data2]) {
     // Now you can work with both data1 and data2
     console.log("Data from file1:", data1);
@@ -14,7 +14,7 @@ Promise.all([
 
     // Filter data2 to include only Mammals data
     var key = "species";
-    var value = "Mammals";
+    var value = "Lichens";
 
     // Filter the data based on the specified keys and values
     var filteredData2 = data2.filter(function(item) {
@@ -40,19 +40,27 @@ Promise.all([
             var value = countryData.value;
     
             // Example: Assign colors based on value ranges
-            if (value < 100) {
-            return { fillColor: '#ffe6e6', color: '#ffe6e6', fillOpacity: 0.6, weight: 2 };
+            if (value < 10) {
+            return { fillColor: '#00ff00', color: 'blue', fillOpacity: 0.6, weight: 1 };
+            } else if (value < 50) {
+            return { fillColor: '#1fe000', color: 'blue', fillOpacity: 0.6, weight: 1 };
+            } else if (value < 100) {
+            return { fillColor: '#3dc200', color: 'blue', fillOpacity: 0.6, weight: 1 };
+            } else if (value < 150) {
+            return { fillColor: '#5ca300', color: 'blue', fillOpacity: 0.6, weight: 1 };
             } else if (value < 200) {
-            return { fillColor: '#ff8080', color: '#ff8080', fillOpacity: 0.6, weight: 2 };
+            return { fillColor: '#7a8500', color: 'blue', fillOpacity: 0.6, weight: 1 };
+            } else if (value < 250) {
+            return { fillColor: '#996600', color: 'blue', fillOpacity: 0.6, weight: 1 };
             } else if (value < 300) {
-            return { fillColor: '#ff0000', color: '#ff0000', fillOpacity: 0.6, weight: 2 };
-            } else if (value < 400) {
-            return { fillColor: '#800000', color: '#800000', fillOpacity: 0.6, weight: 2 };
+            return { fillColor: '#b84700', color: 'blue', fillOpacity: 0.6, weight: 1 };
+            } else if (value < 350) {
+            return { fillColor: '#cc3300', color: 'blue', fillOpacity: 0.6, weight: 1 };
             } else {
-            return { fillColor: '#000000', color: '#000000', fillOpacity: 0.6, weight: 2 };
+            return { fillColor: '#bd2b08', color: 'blue', fillOpacity: 0.6, weight: 1 };
             }
         } else {
-            return { fillColor: defaultColor, color: 'black', fillOpacity: 0.6, weight: 2 };
+            return { fillColor: defaultColor, color: 'blue', fillOpacity: 0.6, weight: 1 };
         }
         }
     });
@@ -105,3 +113,25 @@ var overlayMaps = {
 // Create a layer control and add it to the map
 var layerControl = L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(map);
 
+
+// Create a legend //-----------------------------------------
+
+// Define the gradient colors
+var legend = L.control({ position: 'bottomright' });
+
+legend.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info legend');
+    var grades = [10, 50, 100, 150, 200, 250, 300, 350, 400]; // Adjust as needed
+    var colors = ['#00ff00', '#1fe000', '#3dc200', '#5ca300', '#7a8500', '#996600', '#b84700', '#cc3300', '#bd2b08'];
+
+    // Loop through the legend intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + colors[i] + '"></i> ' +
+            (i === 0 ? 'Low' : (i === grades.length - 1 ? 'High' : '')) + '<br>';
+    }
+
+    return div;
+};
+
+legend.addTo(map);
