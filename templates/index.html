@@ -47,28 +47,38 @@
           </ul>
         </div> 
        </nav>
-
-       <!-- vy input -->
+      <div class=".container-fluid">  
+        <div class="row">
+          <div class="col-sm-8">
+            <h1>Number of endanger species</h1>
+            <p><h3>World map displays the number of endanger species in selected countries.</h3></p>
+            <p>Click on the country to display the details.</p>
+            <!-- vy input -->
+       <!-- Dropdown menu for endanger level -->
+       <nav class="navbar navbar-expand-sm bg-light .justify-content-center">
+        <div class="container-fluid">
+          <ul class="navbar-nav \">
+            <li class="nav-item">
+                <label>Choose a dataset: </label>
+                <select id="dataset" onchange="optionChanged(this.value)"></select>
+            </li>
+          </ul>
+        </div> 
+       </nav>
+       <!-- Dropdown menu for endanger level -->
+            <!-- vy input -->
        <!-- Dropdown menu for species -->
        <nav class="navbar navbar-expand-sm bg-light .justify-content-center">
         <div class="container-fluid">
-          <!-- Links -->
           <ul class="navbar-nav \">
             <li class="nav-item">
-                <label>Choose a species: </label>
+                <label>Choose a species group: </label>
                 <select id="Species" onchange="optionChanged(this.value)"></select>
             </li>
           </ul>
         </div> 
        </nav>
        <!-- Dropdown menu for species -->
-
-      <div class=".container-fluid">  
-        <div class="row">
-          <div class="col-sm-8">
-            <h3>Map of Area</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             <div id="map"></div>  
           </div>
           <div class="col-sm-4">
@@ -87,8 +97,6 @@
       </div>   
     <!--Run script from project file-->
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
-    <!-- <script src="{{ url_for('static', filename='js/app1.js') }}"></script>   -->
-    <!-- <script src="{{ url_for('static', filename='js/app1_v1.js') }}"></script>  -->
-    <script src="{{ url_for('static', filename='js/app1_v2.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/app1_v7.js') }}"></script> 
 </body>
 </html>
