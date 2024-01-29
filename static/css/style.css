@@ -40,4 +40,7 @@ h1{
     margin-right: 8px; 
     opacity: 0.7;
   }
+  #bubble-chart-container {
+    overflow: hidden;
+}
   
