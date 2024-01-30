@@ -30,3 +30,5 @@ STATIC //contains CSS folder & JS folder
 
 TEMPLATES // contains index.html file for webpage structure
   index.html
+
+Project3_Group4 Presentation // Presentation for project.
