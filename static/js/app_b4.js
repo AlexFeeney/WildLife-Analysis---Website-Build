@@ -53,6 +53,8 @@ let countries;
         "Vulnerable Species"
     ];
 
+    //Structuring Pie Chart Container (appending dropdowns)
+
     const dropdownRisk = document.createElement('select');
     dropdownRisk.className = "riskSelect";
 
@@ -79,11 +81,27 @@ let countries;
         dropdownCountry.appendChild(option);
     }
 
-    // Appending dropdowns to pieChartContainer
-    const pieChartContainer = document.getElementById("pieChart");
+    const riskIntroduction = document.createElement('span');
+    riskIntroduction.textContent = 'Select Dataset: ';
+    riskIntroduction.style.marginRight = '10px';
 
-    pieChartContainer.appendChild(dropdownRisk);
-    pieChartContainer.appendChild(dropdownCountry);
+    const countryIntroduction = document.createElement('span');
+    countryIntroduction.textContent = 'Select Country: ';
+    countryIntroduction.style.marginRight = '10px';
+
+    const riskContainer = document.createElement('div');
+    riskContainer.style.marginBottom = '10px'; 
+    riskContainer.appendChild(riskIntroduction);
+    riskContainer.appendChild(dropdownRisk);
+
+    const countryContainer = document.createElement('div');
+    countryContainer.appendChild(countryIntroduction);
+    countryContainer.appendChild(dropdownCountry);
+    
+    const pieChartContainer = document.getElementById("pieChart");
+    pieChartContainer.appendChild(riskContainer);
+    pieChartContainer.appendChild(countryContainer);
+
     //---------------------------------------------------------
 
     // Set initial values for selectedRisk and selectedCountry
@@ -141,7 +159,6 @@ let countries;
         const chartData = [{
             values: selectedData,
             labels: labels,
-            title: `${selectedRisk} in ${selectedCountry}`,
             type: 'pie'
         }];
 
@@ -150,7 +167,12 @@ let countries;
             height: 400,
             width: 500,
             showLegend: false,
-            autosize: true
+            autosize: true,
+            title: {
+                text: `${selectedRisk} in ${selectedCountry}`,
+                font: { size: 20 },
+                y: 0.9
+            },
         };
 
         // Create or update the pie chart using Plotly
